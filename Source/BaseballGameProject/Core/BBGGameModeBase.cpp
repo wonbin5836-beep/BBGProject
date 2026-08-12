@@ -57,6 +57,10 @@ void ABBGGameModeBase::PrintChatMessageString(ABBGPlayerController* InChattingPl
 			StartNextTurn();
 		}
 	}
+	else
+	{
+		MessageToSend += FString::Printf(TEXT("(게임을 위해 중복되지 않는 3자리의 숫자를 입력하세요)"));
+	}
 
 	// 4. 전체 브로드캐스트
 	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
@@ -383,7 +387,7 @@ void ABBGGameModeBase::HandleTurnTimeout()
 	if (IsValid(PlayerState) && PlayerState->CurrentGuessCount < PlayerState->MaxGuessCount)
 	{
 		++PlayerState->CurrentGuessCount;
-		BroadcastSystemMessage(FString::Printf(TEXT("System: %s ran out of time. One chance was used."), *PlayerState->PlayerNameString));
+		BroadcastSystemMessage(FString::Printf(TEXT("시스템: %s 시간 오버. 기회 1회를 소모합니다."), *PlayerState->PlayerNameString));
 	}
 
 	const bool bGameEnded = JudgeGame(TimedOutPlayer, 0);

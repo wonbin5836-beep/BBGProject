@@ -44,7 +44,7 @@ public:
 	TArray<TObjectPtr<ABBGPlayerController>> AllPlayerControllers;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Baseball Game|Turn", meta = (ClampMin = "1.0"))
-	float TurnTimeLimitSeconds = 10.0f;
+	float TurnTimeLimitSeconds = 25.0f;
 
 	TObjectPtr<ABBGPlayerController> CurrentTurnPlayer;
 	int32 CurrentTurnIndex = INDEX_NONE;
