@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Dev\\un5\\BaseballGameProject\\Source\\BaseballGameProject\\BaseballGameProject.Build.cs",
+		"C:\\Dev\\un5\\BaseballGameProject\\Source\\BaseballGameProject.Target.cs",
+		"C:\\Dev\\un5\\BaseballGameProject\\Source\\BaseballGameProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

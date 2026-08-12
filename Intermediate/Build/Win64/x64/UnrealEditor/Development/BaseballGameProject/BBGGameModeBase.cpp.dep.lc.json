@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\un5\\baseballgameproject\\source\\baseballgameproject\\core\\bbggamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\un5\\baseballgameproject\\intermediate\\build\\win64\\x64\\baseballgameprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\dev\\un5\\baseballgameproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\baseballgameproject\\definitions.baseballgameproject.h",
+            "c:\\dev\\un5\\baseballgameproject\\source\\baseballgameproject\\core\\bbggamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\dev\\un5\\baseballgameproject\\intermediate\\build\\win64\\unrealeditor\\inc\\baseballgameproject\\uht\\bbggamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

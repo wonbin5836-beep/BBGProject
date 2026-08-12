@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\dev\\un5\\baseballgameproject\\source\\baseballgameproject\\baseballgameproject.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\dev\\un5\\baseballgameproject\\intermediate\\build\\win64\\x64\\baseballgameprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\dev\\un5\\baseballgameproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\baseballgameproject\\definitions.baseballgameproject.h",
+            "c:\\dev\\un5\\baseballgameproject\\source\\baseballgameproject\\baseballgameproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
