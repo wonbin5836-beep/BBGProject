@@ -1,74 +1,78 @@
-# Visual Studio 2015 user specific files
+# Visual Studio, VSCode 및 Rider 사용자별 파일
 .vs/
+.idea/
+**/.idea/
+.vscode/
+.vsconfig
+.code-workspace
+.sln.DotSettings.user
 
-# Compiled Object files
+# 컴파일된 오브젝트 파일
 *.slo
 *.lo
 *.o
+*.obj
 
-
-# Precompiled Headers
+# 프리컴파일된 헤더
 *.gch
+*.pch
 
-# Compiled Dynamic libraries
+# 컴파일된 동적 라이브러리
 *.so
 *.dylib
 
+*.pdb
 
-# Fortran module files
+# Fortran 모듈 파일
 *.mod
 
-# Compiled Static libraries
+# 컴파일된 정적 라이브러리
 *.lai
 *.la
 *.a
 
-
-
+# 실행 파일
+*.exe
+*.out
+*.app
 *.ipa
 
+# 엔진에서 생성될 수 있는 프로젝트 파일
+*.xcodeproj
+*.xcworkspace
+*.sln
 *.suo
 *.opensdf
 *.sdf
 *.VC.db
 *.VC.opendb
-.vsconfig
 
-# Precompiled Assets
+# 프리컴파일된 에셋
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
-# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+# 빌드
+Build/
+
+# PakBlacklist-<BuildConfiguration>.txt 파일 화이트리스트
 !Build/*/
-Build/*/**
+!Build/*/**
 !Build/*/PakBlacklist*.txt
 
-# Don't ignore icon files in Build
+# 빌드에서 아이콘 파일 무시하지 않음
 !Build/**/*.ico
 
-# Built data for maps
+# 맵용으로 빌드된 데이터. 빌드된 라이트맵을 공유하고 싶으면 이 규칙을 제거해도 돼.
 *_BuiltData.uasset
 
-# Unreal Engine Folders (슬래시 포함 폴더명 자체 지정)
-Binaries/
-Plugins/*/Binaries/
-Build/
+# 에디터에서 생성된 설정 파일
 Saved/
-Intermediate/
-Plugins/*/Intermediate/
 DerivedDataCache/
 
-# C++ Generated & Executables
-*.exe
-*.out
-*.app
-*.dll
-*.lib
-*.exp
-*.obj
-*.pch
-
-# Project Files
-*.sln
-*.xcodeproj
-*.xcworkspace
+# 엔진에서 사용할 컴파일된 소스 파일
+Intermediate/
+Plugins/*/Intermediate/
+Plugins/**/Binaries/Win64
+Binaries/
+Build/Windows/FileOpenOrder/CookerOpenOrder.log
+Build/Windows/FileOpenOrder/EditorOpenOrder.log
